@@ -1,0 +1,113 @@
+body{
+	background-image: url("../images/contact-background.jpg");
+	background-position: center;
+	color: #fff;
+}
+
+#tituloContato{
+	font-size: 24px;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+    margin-top: 20px;
+}
+
+h1{
+	font-style: italic;
+    font-size: 58px;
+	font-family: French Script MT, Kunstler Script;
+	padding-top: 20px;
+}
+
+.container-fluid{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 0;
+    padding-right: 0;
+}
+
+/*formulário de contato*/
+.form-control{
+	border-radius: 15px;
+	height: 40px;
+}
+
+textarea.form-control{
+	height: 10em;
+}
+
+#formContato p{
+	margin-left: 14px;
+}
+
+#formContato {
+    margin-bottom: 80px;
+}
+/*formulário de contato*/
+
+/*botão de enviar formulário*/
+.btn-enviar{
+	color: #4f5052;
+    background-color: #fff;
+    border-color: #fff;
+    position: absolute;
+	right: 10px;
+	top: 5px;
+	padding: 6px 35px;
+	border-radius: 15px;
+}
+
+.btn-enviar:hover{
+	color: #fff;
+    background-color: #4f5052;
+    border-color: #fff;
+}
+
+.btn-enviar:not(:disabled):not(.disabled):active{
+	color: #fff;
+    background-color: #4f5052;
+    border-color: #4f5052;
+}
+/*botão de enviar formulário*/
+
+/*rodapé*/
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border-top: 1px #757575 solid;
+}
+
+.left{
+	float:left;
+	margin-left: 20px;
+}
+
+.right{
+	float: right;
+	margin-right: 20px;
+}
+/*rodapé*/
+
+/*lista de contatos*/
+.btn-contatos{
+	padding: 6px 35px;
+	border-radius: 15px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	margin-left: 10px;
+}
+
+#listaContatos ul li{
+	font-size:16px;
+}
+
+#listaContatos .text-right{
+	margin-right: 35px;
+}
+/*lista de contatos*/
